@@ -18,6 +18,13 @@ public class Vehicle {
     }
 
 
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 
     private String name;
     private String color;
@@ -29,6 +36,8 @@ public class Vehicle {
         return 10.1;
 
     }
+
+
 
 
 }

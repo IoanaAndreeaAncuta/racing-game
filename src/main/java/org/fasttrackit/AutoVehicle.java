@@ -12,6 +12,12 @@ public class AutoVehicle extends Vehicle {
         System.out.println("Custom constructor called");
     }
 
+        public AutoVehicle() {
+        this(new Engine());
+
+        }
+
+
     public double getMileage() {
         return mileage;
     }
